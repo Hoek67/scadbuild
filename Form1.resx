@@ -81,22 +81,40 @@
   <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>221, 17</value>
   </metadata>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>221, 17</value>
+  </metadata>
+  <metadata name="colName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="colModified.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="colBuild.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="colStatus.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="colPreview.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        AAABAAEAICAEAAAAAADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAA
+        AAABAAEAICAQAAAAAADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAgAIAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAwMDAAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
-        AAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        CAAAAAAAAAAAAAAAAAAACwALAAAAAAAAAAAAAAAAALuwu7AAAAAAAAAAAAAAAAALu7sAAAAAAAAAAAAA
-        AACwuwALsLAAAAAAAAAAAAALu7B3cLu7AAAAAAAAAAAAALsHcHcLsAAAAAAAAAAAAAALBwAHCwAAAAAA
-        AAAAAAAAuwdwdwuwAAAAAAAAAAAAC7uwd3C7uwAAAAIAAAAAAACwuwALsLAACAAAIAAAAAAAAAu7uwAA
-        AIgAIAIAAAAAAAC7sLuwAAiAAAIAIAAAAACwCwALAAAACAAAICAAAAALuwAHAACICIgIACACAAAAALu7
-        sAAA+IiIBwAgAgAACwuwALsLAHiIiA8AIAIAALu7B3cLu7AAf4gAACAgAAALsHcHcLsAAAf4AAIAIAAA
-        ALBwAHCwAAAAfwAgAgAAAAuwdwdwuwAAAAcAACAAAAC7uwd3C7uwAAAAAAIAAAAACwuwALsLAAAAAAAA
-        AAAAAAAAu7uwAAAAAAAAAAAAAAAAC7sLuwAAAAAAAAAAAAAAAACwALAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////////////////4P///4Q///+A
-        P//+QE///gAP//wAB//8AAf//wAf//wAB//8AAZv/gAMd/5ASFv/ADBt/AAANfwAgBbyAgAW8AAAFuAA
-        ADXgADBt+AD4W+AAPHfgAD5v8AB///ICf//8Af///CH///8n/////////////w==
+        AAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAf3d3d3cIAAAAAAAAAAAAd393d3d3CIgAAAAAAAAAd3d/
+        d3d3dwiIiAAAAAAAAHd3f3d3d3cIiIgAAAAAAAB3d///////8IiIAAAAAAAAd/93d3d3d3cAiAAAAAAA
+        AP93d4AAAAh3dwAAAAAAAAB3d3gHeIiIB3d3AAAAAAAAAHdwiId3AId3AAAAAAAAAAAAeAd4iIgHAAAA
+        AAAAAAAAAACIh3cAgAAAAAAAAAAAAAAIB3iIiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH93d3d3
+        CAAAAAAAAAAAAHd/d3d3dwiIAAAAAAAAAHd3f3d3d3cIiIgAAAAAAAB3d393d3d3CIiIAAAAAAAAd3f/
+        //////CIiAAAAAAAAHf/d3d3d3d3AIgAAAAAAAD/d3eAAAAId3cAAAAAAAAAd3d4CIiIiAd3dwAAAAAA
+        AAB3cIiHdwCHdwAAAAAAAAAAAHgHeIiIBwAAAAAAAAAAAAAAiId3AIAAAAAAAAAAAAAACAd4iIgAAAAA
+        AAAAAAAAAACIh3cAgAAAAAAAAAAAAAAIAHAACAAAAAAAAAAAAAAAAHd3d3cAAAAAAAAAAAAAAAAIiIgA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/wAP//wAA//wAAD/4AAAf+AAAH/gA
+        AB/4AAAf+AAAH/gAAB/8AAA//wAA///AA///4Af//8AD//8AAP/8AAA/+AAAH/gAAB/4AAAf+AAAH/gA
+        AB/4AAAf/AAAP/8AAP//wAP//+AH///gB///4Af//+AH///wD///+B///////w==
 </value>
   </data>
 </root>

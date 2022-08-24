@@ -23,8 +23,8 @@ Partial Class frmMain
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmMain))
         Me.dgFiles = New System.Windows.Forms.DataGridView()
         Me.pbProcess = New System.Windows.Forms.Button()
@@ -57,7 +57,7 @@ Partial Class frmMain
         Me.dgFiles.RowTemplate.Height = 128
         Me.dgFiles.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
         Me.dgFiles.ShowEditingIcon = False
-        Me.dgFiles.Size = New System.Drawing.Size(757, 380)
+        Me.dgFiles.Size = New System.Drawing.Size(785, 380)
         Me.dgFiles.TabIndex = 0
         '
         'pbProcess
@@ -70,7 +70,7 @@ Partial Class frmMain
         '
         'pbClose
         '
-        Me.pbClose.Location = New System.Drawing.Point(684, 387)
+        Me.pbClose.Location = New System.Drawing.Point(712, 387)
         Me.pbClose.Name = "pbClose"
         Me.pbClose.Size = New System.Drawing.Size(75, 23)
         Me.pbClose.TabIndex = 2
@@ -132,16 +132,16 @@ Partial Class frmMain
         '
         'colName
         '
-        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.colName.DefaultCellStyle = DataGridViewCellStyle1
-        Me.colName.HeaderText = "Name and Depenancies"
+        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.colName.DefaultCellStyle = DataGridViewCellStyle3
+        Me.colName.HeaderText = "Source Name and Dependancies"
         Me.colName.Name = "colName"
         Me.colName.ReadOnly = True
         Me.colName.Width = 220
         '
         'colModified
         '
-        Me.colModified.HeaderText = "Modified"
+        Me.colModified.HeaderText = "Age"
         Me.colModified.Name = "colModified"
         '
         'colBuild
@@ -154,8 +154,8 @@ Partial Class frmMain
         '
         'colStatus
         '
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.colStatus.DefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.colStatus.DefaultCellStyle = DataGridViewCellStyle4
         Me.colStatus.HeaderText = "Status"
         Me.colStatus.Name = "colStatus"
         Me.colStatus.Width = 150
@@ -165,13 +165,13 @@ Partial Class frmMain
         Me.colPreview.HeaderText = "Preview"
         Me.colPreview.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom
         Me.colPreview.Name = "colPreview"
-        Me.colPreview.Width = 128
+        Me.colPreview.Width = 196
         '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(766, 434)
+        Me.ClientSize = New System.Drawing.Size(793, 434)
         Me.Controls.Add(Me.cbOBJ)
         Me.Controls.Add(Me.cbSTL)
         Me.Controls.Add(Me.dfCores)
@@ -179,9 +179,11 @@ Partial Class frmMain
         Me.Controls.Add(Me.pbClose)
         Me.Controls.Add(Me.pbProcess)
         Me.Controls.Add(Me.dgFiles)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximizeBox = False
         Me.Name = "frmMain"
+        Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide
         Me.Text = "OpenScad Batch Builder"
         CType(Me.dgFiles, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picCores, System.ComponentModel.ISupportInitialize).EndInit()
