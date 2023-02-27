@@ -7,7 +7,7 @@ This allows scad files to be built in batch which will produce a preview **.PNG*
 **Tip** If first time set the source and destination directories. 
 
 ## Author
-![Kiweed Software]documents/logo_goblin.png)
+![Kiweed Software](documents/logo_goblin.png)
 Dean B. White aka "Hoek67"  **Kiweed Software 2023**
 
 If you like this Software and it saves you time feel free to donate anything as I'm open to improvements. 
