@@ -1,8 +1,7 @@
 {
   "profiles": {
     "scadbuild": {
-      "commandName": "Project",
-      "workingDirectory": "U:\\Users\\Dean\\Desktop\\3dprints\\openscad"
+      "commandName": "Project"
     }
   }
 }
